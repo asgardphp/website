@@ -4,7 +4,7 @@
 				<div class="container">
 					<h1 class="logo logo-sticky-active">
 						<a href="">
-							<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo.png" style="display: inline-block; width: 84px; height: 54px; top: 28px;">
+							<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo.png" style="display: inline-block; width: 80px; height: 54px; top: 28px;">
 							<span style="display: inline-block; top: 30px; position: relative; left: 10px;">Asgard</span>
 						</a>
 					</h1>

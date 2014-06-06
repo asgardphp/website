@@ -38,6 +38,13 @@ git clone git@github.com:asgardphp/asgard.git
 git clone git@github.com:asgardphp/website.git
 </pre>
 			<p><a href="https://github.com/asgardphp/website/archive/master.zip">Or download the zip</a></p>
+
+			<h2>Asgard Documentation</h2>
+			<p>From git:</p>
+<pre>
+git clone git@github.com:asgardphp/docs.git
+</pre>
+			<p><a href="https://github.com/asgardphp/docs/archive/master.zip">Or download the zip</a></p>
 		</div>
 	</div>
 

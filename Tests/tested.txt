@@ -1,8 +1,0 @@
-captcha
-doc
-captcha
-doc
-doc/introduction
-
-about
-contact
