@@ -1,0 +1,18 @@
+/* Add here all your CSS customizations */
+.example img {
+	margin:0 auto;
+	display:block;
+	max-width:800px;
+}
+pre {
+	background:#333;
+	color:#fff;
+}
+.tp-caption.black {
+	color:#000 !important;	
+}
+.tp-caption {
+	color:#fff !important;
+	font-size:24px !important;
+	font-weight:bold !important;
+}
