@@ -25,7 +25,6 @@ class DocumentationController extends \Asgard\Http\Controller {
 			$html = MarkdownExtra::defaultTransform(file_get_contents($file));
 			return preg_replace('/href="#([^"]+)"/', 'href="docs/'.$request['page'].'#\1"', $html);
 		});
-		$this->setRelativeView('doc.php');
 
 		$this->breadcrumb = array(
 			'Home' => $request->url->to(''),
@@ -36,5 +35,7 @@ class DocumentationController extends \Asgard\Http\Controller {
 		foreach(explode('_', $request['page']) as $page)
 			$this->title[] = ucfirst($page);
 		$this->title = implode(' > ', $this->title);
+		
+		$this->view = 'doc';
 	}
 }

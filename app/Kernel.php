@@ -12,7 +12,8 @@ class Kernel extends \Asgard\Core\Kernel {
 			[
 				new \Asgard\Core\Bundle,
 				new \Asgard\Behaviors\Bundle,
-				new \Asgard\Data\Bundle
+				new \Asgard\Data\Bundle,
+				new \Asgard\Captcha\Bundle
 			],
 			glob(__DIR__.'/*', GLOB_ONLYDIR)
 		);

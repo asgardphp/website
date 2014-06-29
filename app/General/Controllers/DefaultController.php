@@ -18,7 +18,7 @@ class DefaultController extends \Asgard\Http\Controller {
 	 * @Route("about")
 	 */
 	public function aboutAction($request) {
-		$this->form = new \Asgard\Form\Form('contact', array(), array(), $request);
+		$this->form = new \Asgard\Form\Form('contact', array(), $request);
 		$this->form['name'] = new \Asgard\Form\Fields\TextField(array(
 			'validation' => 'required'
 		));
@@ -29,16 +29,16 @@ class DefaultController extends \Asgard\Http\Controller {
 		$this->form['message'] = new \Asgard\Form\Fields\TextField(array(
 			'validation' => 'required'
 		));
-		$this->form['captcha'] = new \Asgard\Form\Fields\CaptchaField();
+		$this->form['captcha'] = new \Asgard\Captcha\Libs\CaptchaField();
 
-		if($this->form->isSent()) {
+		if($this->form->sent()) {
 			if($errors = $this->form->errors())
 				$this->getFlash()->addError($errors);
 			else {
-				$name = $this->form['name']->getValue();
-				$emailAddr = $this->form['email']->getValue();
-				$subject = $this->form['subject']->getValue();
-				$message = $this->form['message']->getValue();
+				$name = $this->form['name']->value();
+				$emailAddr = $this->form['email']->value();
+				$subject = $this->form['subject']->value();
+				$message = $this->form['message']->value();
 
 				$email = $this->app['email'];
 				$email->send(function($msg) use($emailAddr, $subject, $message, $name) {
@@ -72,6 +72,6 @@ class DefaultController extends \Asgard\Http\Controller {
 	}
 	
 	public static function layout($content) {
-		return \Asgard\Http\View::renderTemplate(dirname(__DIR__).'/views/default/layout.php', array('content'=>$content));
+		return \Asgard\Http\PHPTemplate::renderFile(dirname(__DIR__).'/html/default/layout.php', array('content'=>$content));
 	}
 }

@@ -1,16 +1,16 @@
 <?php
 namespace Tests;
 
-class AutoTest extends \Asgard\Core\Test {
+class AutoTest extends \Asgard\Http\Test {
 	public function test() {
 		$browser = $this->getBrowser();
 		$this->assertTrue($browser->get('captcha')->isOK(), 'GET captcha');
 		
 		$browser = $this->getBrowser();
-		$this->assertTrue($browser->get('doc')->isOK(), 'GET doc');
+		$this->assertTrue($browser->get('docs')->isOK(), 'GET doc');
 		
 		$browser = $this->getBrowser();
-		$this->assertTrue($browser->get('doc/introduction')->isOK(), 'GET doc/:page');
+		$this->assertTrue($browser->get('docs/introduction')->isOK(), 'GET docs/:page');
 		
 		$browser = $this->getBrowser();
 		$this->assertTrue($browser->get('')->isOK(), 'GET ');
@@ -19,6 +19,6 @@ class AutoTest extends \Asgard\Core\Test {
 		$this->assertTrue($browser->get('about')->isOK(), 'GET about');
 		
 		$browser = $this->getBrowser();
-		$this->assertTrue($browser->get('contact')->isOK(), 'GET contact');
+		$this->assertTrue($browser->get('community')->isOK(), 'GET community');
 	}
 }
