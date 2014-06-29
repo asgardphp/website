@@ -13,7 +13,8 @@ return array(
 		'debug' => true,
 		'email' => array(
 			'driver' => 'Asgard\Email\SwiftEmail'
-		)
+		),
+		'docs_path' => __DIR__.'/../docs'
 	),
 	'dev'	=>	array(
 	),

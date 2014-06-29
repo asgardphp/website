@@ -9,21 +9,15 @@ class DefaultController extends \Asgard\Http\Controller {
 	}
 
 	/**
+	 * @Route("libraries")
+	 */
+	public function librariesAction($request) {
+	}
+
+	/**
 	 * @Route("about")
 	 */
 	public function aboutAction($request) {
-	}
-
-	/**
-	 * @Route("download")
-	 */
-	public function downloadAction($request) {
-	}
-
-	/**
-	 * @Route("contact")
-	 */
-	public function contactAction($request) {
 		$this->form = new \Asgard\Form\Form('contact', array(), array(), $request);
 		$this->form['name'] = new \Asgard\Form\Fields\TextField(array(
 			'validation' => 'required'
@@ -57,6 +51,18 @@ class DefaultController extends \Asgard\Http\Controller {
 				$this->getFlash()->addSuccess('Thank you for your message.');
 			}
 		}
+	}
+
+	/**
+	 * @Route("download")
+	 */
+	public function downloadAction($request) {
+	}
+
+	/**
+	 * @Route("community")
+	 */
+	public function communityAction($request) {
 	}
 
 	public function _404Action() {

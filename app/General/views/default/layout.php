@@ -4,44 +4,16 @@
 				<div class="container">
 					<h1 class="logo logo-sticky-active">
 						<a href="">
-							<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo.png" style="display: inline-block; width: 80px; height: 54px; top: 28px;">
+							<img alt="Porto" width="72" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo.png" style="display: inline-block; top: 28px;">
 							<span style="display: inline-block; top: 30px; position: relative; left: 10px;">Asgard</span>
 						</a>
 					</h1>
-					<!-- <div class="search">
-						<form id="searchForm" action="page-search-results.html" method="get">
-							<div class="input-group">
-								<input type="text" class="form-control search" name="q" id="q" placeholder="Search...">
-								<span class="input-group-btn">
-									<button class="btn btn-default" type="submit"><i class="icon icon-search"></i></button>
-								</span>
-							</div>
-						</form>
-					</div> -->
-					<!-- <nav>
-						<ul class="nav nav-pills nav-top">
-							<li>
-								<a href="about-us.html"><i class="icon icon-angle-right"></i>About Us</a>
-							</li>
-							<li>
-								<a href="contact-us.html"><i class="icon icon-angle-right"></i>Contact Us</a>
-							</li>
-							<li class="phone">
-								<span><i class="icon icon-phone"></i>(123) 456-7890</span>
-							</li>
-						</ul>
-					</nav> -->
 					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
 						<i class="icon icon-bars"></i>
 					</button>
 				</div>
 				<div class="navbar-collapse nav-main-collapse collapse">
 					<div class="container">
-						<!-- <ul class="social-icons">
-							<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
-							<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
-							<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
-						</ul> -->
 						<nav class="nav-main mega-menu">
 							<ul class="nav nav-pills nav-main" id="mainMenu">
 								<li>
@@ -56,19 +28,88 @@
 										<i class="icon icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="about-us.html">..</a></li>
-										<li><a href="about-us.html">..</a></li>
-										<li><a href="about-us.html">..</a></li	>
+										<li class="dropdown-submenu">
+											<a href="doc/">Getting started</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Introduction</a></li>
+												<li><a href="doc/">Requirements</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">Framework</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Installation</a></li>
+												<li><a href="doc/">Configuration</a></li>
+												<li><a href="doc/">Commands</a></li>
+												<li><a href="doc/">Project structure &amp; Bundles</a></li>
+												<li><a href="doc/">Service container</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">HTTP</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Request lifecycle</a></li>
+												<li><a href="doc/">Request</a></li>
+												<li><a href="doc/">Response</a></li>
+												<li><a href="doc/">Controllers</a></li>
+												<li><a href="doc/">Views</a></li>
+												<li><a href="doc/">Routing</a></li>
+												<li><a href="doc/">Exceptions and errors</a></li>
+												<li><a href="doc/">Filters</a></li>
+												<li><a href="doc/">Testing</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">Entity</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Definition</a></li>
+												<li><a href="doc/">Usage</a></li>
+												<li><a href="doc/">Validation</a></li>
+												<li><a href="doc/">Behaviors</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">Hook</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Hooks</a></li>
+												<li><a href="doc/">Hookable</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">Form</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">Form</a></li>
+												<li><a href="doc/">Entity Form</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="doc/">ORM</a>
+											<ul class="dropdown-menu">
+												<li><a href="doc/">DataMapper</a></li>
+												<li><a href="doc/">Behavior</a></li>
+												<li><a href="doc/">Migrations</a></li>
+												<li><a href="doc/">Commands</a></li>
+											</ul>
+										</li>
+										<li><a href="doc/">File</a></li>
+										<li><a href="doc/">Migration</a></li>
+										<li><a href="doc/">Debug</a></li>
+										<li><a href="doc/">Validation</a></li>
+										<li><a href="doc/">Email</a></li>
+										<li><a href="doc/">Autoloader</a></li>
 									</ul>
 								</li>
 								<li>
 									<a href="download">Download</a>
 								</li>
 								<li>
+									<a href="libraries">Libraries</a>
+								</li>
+								<li>
 									<a href="about">About</a>
 								</li>
 								<li>
-									<a href="contact">Contact</a>
+									<a href="community">Community</a>
 								</li>
 							</ul>
 						</nav>
@@ -86,27 +127,6 @@
 						<div class="footer-ribbon">
 							<span>Get in Touch</span>
 						</div>
-						<!-- <div class="col-md-3">
-							<div class="newsletter">
-								<h4>Newsletter</h4>
-								<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
-			
-								<div class="alert alert-success hidden" id="newsletterSuccess">
-									<strong>Success!</strong> You've been added to our email list.
-								</div>
-			
-								<div class="alert alert-danger hidden" id="newsletterError"></div>
-			
-								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
-									<div class="input-group">
-										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-										<span class="input-group-btn">
-											<button class="btn btn-default" type="submit">Go!</button>
-										</span>
-									</div>
-								</form>
-							</div>
-						</div> -->
 						<div class="col-md-3">
 							<h4>Latest Tweet</h4>
 							<div id="tweet" class="twitter" data-account-id="">
@@ -117,21 +137,10 @@
 							<div class="contact-details">
 								<h4>Contact</h4>
 								<ul class="contact">
-									<!-- <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
-									<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</p></li> -->
 									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:michel_AT_hognerud">michel_AT_hognerud.net</a></p></li>
 								</ul>
 							</div>
 						</div>
-						<!-- <div class="col-md-2">
-							<h4>Follow Asgard</h4>
-							<div class="social-icons">
-								<ul class="social-icons">
-									<li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
-									<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
-								</ul>
-							</div>
-						</div> -->
 					</div>
 				</div>
 				<div class="footer-copyright">
@@ -143,8 +152,6 @@
 							<div class="col-md-4">
 								<nav id="sub-menu">
 									<ul>
-										<!-- <li><a href="page-faq.html">FAQ's</a></li> -->
-										<!-- <li><a href="sitemap.html">Sitemap</a></li> -->
 										<li><a href="contact-us.html">Contact</a></li>
 									</ul>
 								</nav>
@@ -190,18 +197,14 @@
 		<!-- PrettyPrint JS -->
 		<script src="js/prettify/run_prettify.js"></script>
 
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script type="text/javascript">
-		
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-12345678-1']);
-			_gaq.push(['_trackPageview']);
-		
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		
+		<!-- Google Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-51732580-1', 'asgardphp.com');
+		  ga('send', 'pageview');
+
 		</script>
-		 -->

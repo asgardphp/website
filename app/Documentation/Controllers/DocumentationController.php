@@ -17,11 +17,13 @@ class DocumentationController extends \Asgard\Http\Controller {
 		if(!$request['page'])
 			$request['page'] = 'introduction';
 
-		if(!file_exists('docs/'.$request['page'].'.md'))
+		$file = $this->app['config']['docs_path'].'/'.$request['page'].'.md';
+		if(!file_exists($file))
 			$this->notFound();
 
-		$this->content = $this->app['cache']->fetch('docs/'.$request['page'], function() use($request) {
-			return MarkdownExtra::defaultTransform(file_get_contents('docs/'.$request['page'].'.md'));
+		$this->content = $this->app['cache']->fetch('docs/'.$request['page'], function() use($request, $file) {
+			$html = MarkdownExtra::defaultTransform(file_get_contents($file));
+			return preg_replace('/href="#([^"]+)"/', 'href="doc/'.$request['page'].'#\1"', $html);
 		});
 		$this->setRelativeView('doc.php');
 
