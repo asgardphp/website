@@ -20,7 +20,7 @@
 									<a href="">Home</a>
 								</li>
 								<li>
-									<a href="doc/quickstart">Quickstart</a>
+									<a href="docs/quickstart">Quickstart</a>
 								</li>
 								<li class="dropdown">
 									<a class="dropdown-toggle" href="#">
@@ -29,74 +29,74 @@
 									</a>
 									<ul class="dropdown-menu">
 										<li class="dropdown-submenu">
-											<a href="doc/">Getting started</a>
+											<a href="docs/">Getting started</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Introduction</a></li>
-												<li><a href="doc/">Requirements</a></li>
+												<li><a href="docs/">Introduction</a></li>
+												<li><a href="docs/">Requirements</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">Framework</a>
+											<a href="docs/">Framework</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Installation</a></li>
-												<li><a href="doc/">Configuration</a></li>
-												<li><a href="doc/">Commands</a></li>
-												<li><a href="doc/">Project structure &amp; Bundles</a></li>
-												<li><a href="doc/">Service container</a></li>
+												<li><a href="docs/">Installation</a></li>
+												<li><a href="docs/">Configuration</a></li>
+												<li><a href="docs/">Commands</a></li>
+												<li><a href="docs/">Project structure &amp; Bundles</a></li>
+												<li><a href="docs/">Service container</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">HTTP</a>
+											<a href="docs/">HTTP</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Request lifecycle</a></li>
-												<li><a href="doc/">Request</a></li>
-												<li><a href="doc/">Response</a></li>
-												<li><a href="doc/">Controllers</a></li>
-												<li><a href="doc/">Views</a></li>
-												<li><a href="doc/">Routing</a></li>
-												<li><a href="doc/">Exceptions and errors</a></li>
-												<li><a href="doc/">Filters</a></li>
-												<li><a href="doc/">Testing</a></li>
+												<li><a href="docs/">Request lifecycle</a></li>
+												<li><a href="docs/">Request</a></li>
+												<li><a href="docs/">Response</a></li>
+												<li><a href="docs/">Controllers</a></li>
+												<li><a href="docs/">Views</a></li>
+												<li><a href="docs/">Routing</a></li>
+												<li><a href="docs/">Exceptions and errors</a></li>
+												<li><a href="docs/">Filters</a></li>
+												<li><a href="docs/">Testing</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">Entity</a>
+											<a href="docs/">Entity</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Definition</a></li>
-												<li><a href="doc/">Usage</a></li>
-												<li><a href="doc/">Validation</a></li>
-												<li><a href="doc/">Behaviors</a></li>
+												<li><a href="docs/">Definition</a></li>
+												<li><a href="docs/">Usage</a></li>
+												<li><a href="docs/">Validation</a></li>
+												<li><a href="docs/">Behaviors</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">Hook</a>
+											<a href="docs/">Hook</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Hooks</a></li>
-												<li><a href="doc/">Hookable</a></li>
+												<li><a href="docs/">Hooks</a></li>
+												<li><a href="docs/">Hookable</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">Form</a>
+											<a href="docs/">Form</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">Form</a></li>
-												<li><a href="doc/">Entity Form</a></li>
+												<li><a href="docs/">Form</a></li>
+												<li><a href="docs/">Entity Form</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="doc/">ORM</a>
+											<a href="docs/">ORM</a>
 											<ul class="dropdown-menu">
-												<li><a href="doc/">DataMapper</a></li>
-												<li><a href="doc/">Behavior</a></li>
-												<li><a href="doc/">Migrations</a></li>
-												<li><a href="doc/">Commands</a></li>
+												<li><a href="docs/">DataMapper</a></li>
+												<li><a href="docs/">Behavior</a></li>
+												<li><a href="docs/">Migrations</a></li>
+												<li><a href="docs/">Commands</a></li>
 											</ul>
 										</li>
-										<li><a href="doc/">File</a></li>
-										<li><a href="doc/">Migration</a></li>
-										<li><a href="doc/">Debug</a></li>
-										<li><a href="doc/">Validation</a></li>
-										<li><a href="doc/">Email</a></li>
-										<li><a href="doc/">Autoloader</a></li>
+										<li><a href="docs/">File</a></li>
+										<li><a href="docs/">Migration</a></li>
+										<li><a href="docs/">Debug</a></li>
+										<li><a href="docs/">Validation</a></li>
+										<li><a href="docs/">Email</a></li>
+										<li><a href="docs/">Autoloader</a></li>
 									</ul>
 								</li>
 								<li>

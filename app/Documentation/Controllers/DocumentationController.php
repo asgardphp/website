@@ -4,14 +4,14 @@ use \Michelf\MarkdownExtra;
 
 class DocumentationController extends \Asgard\Http\Controller {
 	/**
-	 * @Route("doc")
+	 * @Route("docs")
 	 */
 	public function docIndexAction($request) {
 		return $this->docAction($request);
 	}
 
 	/**
-	 * @Route("doc/:page")
+	 * @Route("docs/:page")
 	 */
 	public function docAction($request) {
 		if(!$request['page'])
@@ -23,7 +23,7 @@ class DocumentationController extends \Asgard\Http\Controller {
 
 		$this->content = $this->app['cache']->fetch('docs/'.$request['page'], function() use($request, $file) {
 			$html = MarkdownExtra::defaultTransform(file_get_contents($file));
-			return preg_replace('/href="#([^"]+)"/', 'href="doc/'.$request['page'].'#\1"', $html);
+			return preg_replace('/href="#([^"]+)"/', 'href="docs/'.$request['page'].'#\1"', $html);
 		});
 		$this->setRelativeView('doc.php');
 

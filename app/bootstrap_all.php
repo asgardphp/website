@@ -3,44 +3,20 @@ if(!defined('_ASGARD_START_'))
 	define('_ASGARD_START_', time()+microtime());
 set_include_path(get_include_path() . PATH_SEPARATOR . $app['kernel']['root']);
 
-#Utils
-if(!function_exists('d')) {
-	function d() {
-		if(\Asgard\Core\App::instance()['config']['debug'] === false)
-			return;
-		$app = \Asgard\Core\App::instance();
-		$request = $app->has('request') ? $app['request']:new \Asgard\Http\Request();
-		call_user_func_array(array('Asgard\Debug\Debug', 'dWithTrace'), array_merge(array($request, debug_backtrace()), func_get_args()));
-	}
-}
-if(!function_exists('__')) {
-	function __($key, $params=array()) {
-		return \Asgard\Core\App::instance()->get('translator')->trans($key, $params);
-	}
-}
+if(file_exists(__DIR__.'/helpers.php'))
+	require_once __DIR__.'/helpers.php';
 
 #Working dir
 chdir(__DIR__.'/..');
 
 #Error handler
-\Asgard\Debug\ErrorHandler::initialize($app)
+$app['errorHandler'] = \Asgard\Debug\ErrorHandler::register()
 	->ignoreDir(__DIR__.'/../vendor/nikic/php-parser/')
-	->ignoreDir(__DIR__.'/../vendor/jeremeamia/SuperClosure/');
-
-#Autoloader
-foreach(spl_autoload_functions() as $function) {
-	if(is_array($function) && $function[0] instanceof \Composer\Autoload\ClassLoader)
-		$function[0]->setUseIncludePath(true);
-}
-set_include_path(get_include_path() . PATH_SEPARATOR . 'app');
-$app->register('autoloader', function($app) {
-	$autoloader = new \Asgard\Core\Autoloader;
-	$autoloader->goUp($app['config']['global_namespace']);
-	$autoloader->preload($app['config']['preload']);
-	return $autoloader;
-});
-spl_autoload_register(array($app['autoloader'], 'autoload')); #asgard autoloader
-$app['autoloader']->namespaceMap('Psr\Log', 'log/Psr/Log');
+	->ignoreDir(__DIR__.'/../vendor/jeremeamia/SuperClosure/')
+	->setLogPHPErrors($app['config']['log_php_errors']);
+if($this->app['config']['log'] && $app->has('logger'))
+	$app['errorHandler']->setLogger($app['logger']);
+\Asgard\Debug\Debug::setURL($app['config']['debug_url']);
 
 #Logger
 $app->register('logger', function() {
@@ -67,6 +43,25 @@ $app['hooks']->hook('Asgard.Entity.LoadBehaviors', function($chain, &$behaviors)
 	$behaviors[] = new \Asgard\Orm\ORMBehavior;
 });
 
-$app['httpKernel']->start(__DIR__.'/start.php');
+#Call start
+$app['httpKernel']->start($app['kernel']['root'].'/app/start.php');
 
-include_once 'vendor/swiftmailer/swiftmailer/lib/swift_required.php';
+#Layout
+$app['httpKernel']->filterAll('Asgard\Http\Filters\PageLayout', [
+	['\General\Controllers\DefaultController', 'layout'],
+	$app['kernel']['root'].'/app/General/html/html.php'
+]);
+
+#Remove trailing / and www.
+$app['hooks']->hook('Asgard.Http.Start', function($chain, $request) {
+	$oldUrl = $request->url;
+	$newUrl = clone $oldUrl;
+
+	if(preg_match('/^www./', $oldUrl->get()))
+		$newUrl->setHost(preg_replace('/^www./', '', $oldUrl->get()));
+	if(($url=rtrim($oldUrl->get(), '/')) !== $oldUrl->get())
+		$newUrl->setURL($url);
+
+	if($newUrl->full() !== $oldUrl->full())
+		return (new \Asgard\Http\Response())->redirect($newUrl->full());
+});
