@@ -231,18 +231,18 @@
 		</div>
 	</div>
 
-	<!-- <div class="row">
+	<div class="row">
 		<div class="col-md-4">
 			<div class="feature-box">
 				<div class="feature-box-icon">
 					<i class="icon icon-bars"></i>
 				</div>
 				<div class="feature-box-info">
-					<h4 class="shorter">Inversion of Control</h4>
-					<p class="tall">To avoid dependencies between libraries, all the services are stored in a container, available anywhere in your application.</p>
+					<h4 class="shorter">Dependency Injection</h4>
+					<p class="tall">To avoid hard dependencies, all the services are stored in a container, available anywhere in your application.</p>
 				</div>
 			</div>
-		</div>
+		</div><!-- 
 		<div class="col-md-4">
 			<div class="feature-box">
 				<div class="feature-box-icon">
@@ -264,8 +264,8 @@
 					<p class="tall">So give a try to the <a href="docs/quickstart">quickstart</a> or check out <a href="doc">the documentation</a>.</p>
 				</div>
 			</div>
-		</div>
-	</div> -->
+		</div> -->
+	</div>
 		
 
 </div>

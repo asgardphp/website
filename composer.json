@@ -28,27 +28,5 @@
         "post-create-project-cmd": [
             "php console init-config"
         ]
-    },
-    "repositories": [
-	    {
-	        "type": "vcs",
-	        "url": "C:\\Users\\leyou\\Documents\\projects\\asgard\\vendor\\asgard\\asgard"
-	    },
-	    {
-	        "type": "vcs",
-	        "url": "C:\\Users\\leyou\\Documents\\projects\\asgard\\vendor\\nesbot\\carbon"
-	    },
-	    {
-	        "type": "vcs",
-	        "url": "C:\\Users\\leyou\\Documents\\projects\\asgard\\vendor\\psr\\log"
-	    },
-	    {
-	        "type": "vcs",
-	        "url": "C:\\Users\\leyou\\Documents\\projects\\sf\\translation"
-	    },
-	    {
-	        "type": "vcs",
-	        "url": "C:\\Users\\leyou\\Documents\\projects\\sf\\yaml"
-	    }
-    ]
+    }
 }

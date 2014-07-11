@@ -21,11 +21,11 @@
 
 					<div class="row">
 						<div class="col-md-12">
+							<h2>Mailing List</h2>
+							<p>Join the <a href="https://groups.google.com/group/asgard-php-framework">Asgard PHP Framework</a> mailing list.</p>
 
-							<h1 class="push-top">Community</h1>
-							<p>For group discussions: <a href="https://groups.google.com/forum/#!forum/asgard-php-framework">https://groups.google.com/forum/#!forum/asgard-php-framework</a>.</p>
-
-							<p>For issues or pull requests: <a href="http://github.com/asgardphp/">github.com/asgardphp/</a>.</p>
+							<h2>Issues &amp; pull requests</h2>
+							<p>Join us on <a href="http://github.com/asgardphp/">github</a>.</p>
 						</div>
 
 					</div>
