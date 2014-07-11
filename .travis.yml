@@ -3,13 +3,6 @@ language: php
 php:
   - 5.4
 
-git:
-  submodules: false
-
-before_install:
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-  - git submodule update --init --recursive
-
 before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --prefer-source --no-interaction --dev
