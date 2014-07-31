@@ -31,11 +31,11 @@
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/framework#installation">Installation</a></li>
 									<li><a href="docs/framework#configuration">Configuration</a></li>
-									<li><a href="docs/framework#structure">Project structure</a></li>
-									<li><a href="docs/framework#structure">Bundles</a></li>
+									<li><a href="docs/framework#project-structure">Project structure</a></li>
+									<li><a href="docs/framework#bundles">Bundles</a></li>
 									<li><a href="docs/framework#services">Default services</a></li>
-									<li><a href="docs/testing">Testing</a></li>
-									<li><a href="docs/commands">Commands</a></li>
+									<li><a href="docs/framework#testing">Testing</a></li>
+									<li><a href="docs/framework-commands">Commands</a></li>
 								</ul>
 
 								<h4><a href="docs/http">HTTP</a></h4>
@@ -43,13 +43,6 @@
 									<li><a href="docs/http-requestresponse">Request &amp; Response</a></li>
 									<li><a href="docs/http-controllers">Controllers</a></li>
 									<li><a href="docs/http-commands">Commands</a></li>
-								</ul>
-
-								<h4><a href="docs/entity">Entity</a></h4>
-								<ul class="nav nav-list primary push-bottom">
-									<li><a href="docs/entity-entity">Entity Definition</a></li>
-									<li><a href="docs/entity-validation">Validation</a></li>
-									<li><a href="docs/entity-behaviors">Behaviors</a></li>
 								</ul>
 
 								<h4><a href="docs/orm">ORM</a></h4>
@@ -85,6 +78,7 @@
 									<li><a href="docs/container">Container</a></li>
 									<li><a href="docs/data">Data</a></li>
 									<li><a href="docs/email">Email</a></li>
+									<li><a href="docs/entity">Entity</a></li>
 									<li><a href="docs/hook">Hook</a></li>
 									<li><a href="docs/migration">Migration</a></li>
 									<li><a href="docs/validation">Validation</a></li>
