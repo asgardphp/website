@@ -17,7 +17,8 @@ class DocumentationController extends \Asgard\Http\Controller {
 		if(!$request['page'])
 			$request['page'] = 'introduction';
 
-		$file = $this->container['config']['docs_path'].'/'.$request['page'].'.md';
+		$docspath = $this->container['config']->has('docs_path') ? $this->container['config']['docs_path']:'docs';
+		$file = $docspath.'/'.$request['page'].'.md';
 		if(!file_exists($file))
 			$this->notFound();
 
