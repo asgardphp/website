@@ -1,1 +1,1 @@
-<?php echo $this->app['translator']->trans('This website is currently in maitenance.') ?>
+<?php echo $this->container['translator']->trans('This website is currently in maitenance.') ?>

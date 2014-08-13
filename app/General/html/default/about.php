@@ -8,11 +8,6 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h2>About</h2>
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -82,7 +77,7 @@
 							<p>I'm a 25 years old developper, working somewhere in Europe as a freelance when I'm not travelling.</p>
 
 							<h4>Why Asgard?</h4>
-							<p>As a freelance I have always looked for ways to optimize my workflow when building web applications. I have never been totally satisfied with any existing framework. Either incomplete or cumbersome..</p>
+							<p>As a freelance I have always looked for ways to optimize my workflow when building web containerlications.</p>
 							<p>Hence, I started working on a new framework in 2011. Although it's a lot of work, I got to learn a lot.</p>
 							<p>I have spent countless hours thinking about better ways to do web development with PHP, and I have so far implemented many of my ideas (but not all, yet).</p>
 							<p>My objective now is to give Asgard more stability, with more and more tests and a good documentation.</p>

@@ -6,15 +6,15 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<?php $controller->getApp()['html']->printTitle() ?>
-		<?php $controller->getApp()['html']->printDescription() ?>
-		<?php $controller->getApp()['html']->printKeywords() ?>
+		<?php $controller->getContainer()['html']->printTitle() ?>
+		<?php $controller->getContainer()['html']->printDescription() ?>
+		<?php $controller->getContainer()['html']->printKeywords() ?>
 		<base href="<?php echo $controller->request->url->base() ?>" />
-		<?php $controller->getApp()['html']->printJSInclude() ?>
-		<?php $controller->getApp()['html']->printCSSInclude() ?>
-		<?php $controller->getApp()['html']->printJSCode() ?>
-		<?php $controller->getApp()['html']->printCSSCode() ?>
-		<?php $controller->getApp()['html']->printCode() ?>
+		<?php $controller->getContainer()['html']->printJSInclude() ?>
+		<?php $controller->getContainer()['html']->printCSSInclude() ?>
+		<?php $controller->getContainer()['html']->printJSCode() ?>
+		<?php $controller->getContainer()['html']->printCSSCode() ?>
+		<?php $controller->getContainer()['html']->printCode() ?>
 		<link rel="icon" href="favicon.ico" />
 
 		<!-- Mobile Metas -->

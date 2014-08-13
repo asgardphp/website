@@ -78,7 +78,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Modularity</h4>
-					<p class="tall">Use, re-use, import and remove bundles as you wish. Asgard applications are very modular.<br>
+					<p class="tall">Use, re-use, import and remove bundles as you wish. Asgard containerlications are very modular.<br>
 					<a href="">See how</a></p>
 				</div>
 			</div>
@@ -167,7 +167,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Great debugger</h4>
-					<p class="tall">Whenever your application comes accross an error, it will show you the whole backtrace with code snippets, arguments, and links that point to specific files and lines.</p>
+					<p class="tall">Whenever your containerlication comes accross an error, it will show you the whole backtrace with code snippets, arguments, and links that point to specific files and lines.</p>
 				</div>
 			</div>
 		</div>
@@ -239,7 +239,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Dependency Injection</h4>
-					<p class="tall">To avoid hard dependencies, all the services are stored in a container, available anywhere in your application.</p>
+					<p class="tall">To avoid hard dependencies, all the services are stored in a container, available anywhere in your containerlication.</p>
 				</div>
 			</div>
 		</div><!-- 

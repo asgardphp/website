@@ -23,80 +23,81 @@
 									<a href="docs/quickstart">Quickstart</a>
 								</li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" href="#">
+									<a class="dropdown-toggle" href="docs">
 										Documentation
 										<i class="icon icon-angle-down"></i>
 									</a>
 									<ul class="dropdown-menu">
 										<li class="dropdown-submenu">
-											<a href="docs/">Getting started</a>
+											<a href="docs/introduction">Getting started</a>
 											<ul class="dropdown-menu">
-												<li><a href="docs/">Introduction</a></li>
-												<li><a href="docs/">Requirements</a></li>
+												<li><a href="docs/introduction#introduction">Introduction</a></li>
+												<li><a href="docs/introduction#requirements">Requirements</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="docs/">Framework</a>
+											<a href="docs/framework">Framework</a>
 											<ul class="dropdown-menu">
-												<li><a href="docs/">Installation</a></li>
-												<li><a href="docs/">Configuration</a></li>
-												<li><a href="docs/">Commands</a></li>
-												<li><a href="docs/">Project structure &amp; Bundles</a></li>
-												<li><a href="docs/">Service container</a></li>
+												<li><a href="docs/framework#installation">Installation</a></li>
+												<li><a href="docs/framework#configuration">Configuration</a></li>
+												<li><a href="docs/framework#project-structure">Project structure</a></li>
+												<li><a href="docs/framework#bundles">Bundles</a></li>
+												<li><a href="docs/framework#services">Default services</a></li>
+												<li><a href="docs/framework#testing">Testing</a></li>
+												<li><a href="docs/framework-commands">Commands</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
 											<a href="docs/">HTTP</a>
 											<ul class="dropdown-menu">
-												<li><a href="docs/">Request lifecycle</a></li>
-												<li><a href="docs/">Request</a></li>
-												<li><a href="docs/">Response</a></li>
-												<li><a href="docs/">Controllers</a></li>
-												<li><a href="docs/">Views</a></li>
-												<li><a href="docs/">Routing</a></li>
-												<li><a href="docs/">Exceptions and errors</a></li>
-												<li><a href="docs/">Filters</a></li>
-												<li><a href="docs/">Testing</a></li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="docs/">Entity</a>
-											<ul class="dropdown-menu">
-												<li><a href="docs/">Definition</a></li>
-												<li><a href="docs/">Usage</a></li>
-												<li><a href="docs/">Validation</a></li>
-												<li><a href="docs/">Behaviors</a></li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="docs/">Hook</a>
-											<ul class="dropdown-menu">
-												<li><a href="docs/">Hooks</a></li>
-												<li><a href="docs/">Hookable</a></li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="docs/">Form</a>
-											<ul class="dropdown-menu">
-												<li><a href="docs/">Form</a></li>
-												<li><a href="docs/">Entity Form</a></li>
+												<li><a href="docs/http-requestresponse">Request &amp; Response</a></li>
+												<li><a href="docs/http-controllers">Controllers</a></li>
+												<li><a href="docs/http-commands">Commands</a></li>
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
 											<a href="docs/">ORM</a>
 											<ul class="dropdown-menu">
-												<li><a href="docs/">DataMapper</a></li>
-												<li><a href="docs/">Behavior</a></li>
-												<li><a href="docs/">Migrations</a></li>
-												<li><a href="docs/">Commands</a></li>
+												<li><a href="docs/orm-relations">Relations</a></li>
+												<li><a href="docs/orm-datamcontainerer">DataMcontainerer</a></li>
+												<li><a href="docs/orm-ormbehavior">ORM Behavior</a></li>
+												<li><a href="docs/orm-commands">Commands</a></li>
 											</ul>
 										</li>
-										<li><a href="docs/">File</a></li>
-										<li><a href="docs/">Migration</a></li>
-										<li><a href="docs/">Debug</a></li>
-										<li><a href="docs/">Validation</a></li>
-										<li><a href="docs/">Email</a></li>
-										<li><a href="docs/">Autoloader</a></li>
+										<li class="dropdown-submenu">
+											<a href="docs/">DB</a>
+											<ul class="dropdown-menu">
+												<li><a href="docs/db-db">Database</a></li>
+												<li><a href="docs/db-dal">DAL</a></li>
+												<li><a href="docs/db-schema">Schema</a></li>
+												<li><a href="docs/db-commands">Commands</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="docs/">Form</a>
+											<ul class="dropdown-menu">
+												<li><a href="docs/form-form">Form</a></li>
+												<li><a href="docs/form-entity">Entity Form</a></li>
+												<li><a href="docs/form-dynamic">Dynamic Group</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="docs/">More</a>
+											<ul class="dropdown-menu">
+												<li><a href="docs/admin">Admin</a></li>
+												<li><a href="docs/autoloader">Autoloader</a></li>
+												<li><a href="docs/bag">Bag</a></li>
+												<li><a href="docs/cache">Cache</a></li>
+												<li><a href="docs/config">Config</a></li>
+												<li><a href="docs/container">Container</a></li>
+												<li><a href="docs/data">Data</a></li>
+												<li><a href="docs/email">Email</a></li>
+												<li><a href="docs/entity">Entity</a></li>
+												<li><a href="docs/hook">Hook</a></li>
+												<li><a href="docs/migration">Migration</a></li>
+												<li><a href="docs/validation">Validation</a></li>
+											</ul>
+										</li>
 									</ul>
 								</li>
 								<li>
@@ -122,39 +123,11 @@
 			</div>
 
 			<footer id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="footer-ribbon">
-							<span>Get in Touch</span>
-						</div>
-						<div class="col-md-3">
-							<h4>Latest Tweet</h4>
-							<div id="tweet" class="twitter" data-account-id="">
-								<p>Please wait...</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="contact-details">
-								<h4>Contact</h4>
-								<ul class="contact">
-									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:michel_AT_hognerud">michel_AT_hognerud.net</a></p></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div class="footer-copyright">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-7">
 								<p>© Asgard Copyright 2014. All Rights Reserved.</p>
-							</div>
-							<div class="col-md-4">
-								<nav id="sub-menu">
-									<ul>
-										<li><a href="contact-us.html">Contact</a></li>
-									</ul>
-								</nav>
 							</div>
 						</div>
 					</div>
@@ -164,7 +137,7 @@
 
 		<!-- Libs -->
 		<script src="vendor/jquery.js"></script>
-		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.containerear.js"></script>
 		<script src="vendor/jquery.easing.js"></script>
 		<script src="vendor/jquery.cookie.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.js"></script>

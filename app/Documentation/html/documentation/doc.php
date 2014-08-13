@@ -4,13 +4,8 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><a href="<?php echo $request->url->to('') ?>">Home</a></li>
-									<li><a href="<?php echo $request->url->to('doc') ?>">Documentation</a></li>
+									<li><a href="<?php echo $request->url->to('docs') ?>">Documentation</a></li>
 								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<h2><?php echo $title ?></h2>
 							</div>
 						</div>
 					</div>
@@ -48,12 +43,12 @@
 								<h4><a href="docs/orm">ORM</a></h4>
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/orm-relations">Relations</a></li>
-									<li><a href="docs/orm-datamapper">DataMapper</a></li>
+									<li><a href="docs/orm-datamcontainerer">DataMcontainerer</a></li>
 									<li><a href="docs/orm-ormbehavior">ORM Behavior</a></li>
 									<li><a href="docs/orm-commands">Commands</a></li>
 								</ul>
 
-								<h4><a href="docs/db">Db</a></h4>
+								<h4><a href="docs/db">DB</a></h4>
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/db-db">Database</a></li>
 									<li><a href="docs/db-dal">DAL</a></li>

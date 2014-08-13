@@ -40,7 +40,7 @@ class DefaultController extends \Asgard\Http\Controller {
 				$subject = $this->form['subject']->value();
 				$message = $this->form['message']->value();
 
-				$email = $this->app['email'];
+				$email = $this->container['email'];
 				$email->send(function($msg) use($emailAddr, $subject, $message, $name) {
 					$msg->to('michel@hognerud.net');
 					$msg->from($emailAddr);

@@ -8,11 +8,6 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h2>About</h2>
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -26,7 +21,7 @@
 
 			<hr>
 
-			<?php $this->app['html']->codeCSS('tbody td { height:30px; }') ?>
+			<?php $this->container['html']->codeCSS('tbody td { height:30px; }') ?>
 			<table width="90%" style="text-align:left">
 			<thead style="font-weight:bold; color:#222">
 				<tr>
@@ -62,7 +57,7 @@
 					<td><a href="https://travis-ci.org/asgardphp/config"><img src="https://travis-ci.org/asgardphp/config.svg?branch=master" alt="Travis"></a></td>
 					<td><a href="https://github.com/asgardphp/config">Config</a></td>
 					<td><a href="https://packagist.org/packages/asgard/config">asgard/config</a></td>
-					<td>Manage the application configuration.</td>
+					<td>Manage the containerlication configuration.</td>
 					<td><a href="docs/config">Doc</a></td>
 				</tr>
 				<tr>

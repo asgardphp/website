@@ -209,7 +209,7 @@ body {
 	padding-top: 4px;
 	text-transform: none;
 	position: relative;
-	padding: 8px 10px 8px 5px;
+	padding: 4px 10px 4px 5px;
 	font-size: 0.9em;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -1415,7 +1415,7 @@ aside ul.nav-list > li > a {
 	border-top: 4px solid #1F1F1F;
 	font-size: 0.9em;
 	margin-top: 50px;
-	padding: 80px 0 0;
+	/*padding: 80px 0 0;*/
 	position: relative;
 	clear: both;
 }
@@ -1588,7 +1588,7 @@ aside ul.nav-list > li > a {
 #footer .footer-copyright {
 	background: #0C0C0C;
 	border-top: 4px solid #111;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	padding: 30px 0 10px;
 }
 
