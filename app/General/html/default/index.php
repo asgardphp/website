@@ -4,16 +4,16 @@
 			<li data-transition="fade" data-slotamount="13" data-masterspeed="300" style="text-align:center">
 				<img src="snippet.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 				<div class="tp-caption top-label lfl stl"
-					 data-x="700"
+					 data-x="580"
 					 data-y="430"
 					 data-easing="easeOutExpo">Controllers &amp; Routing annotations</div>
 			</li>
 			<li data-transition="fade" data-slotamount="13" data-masterspeed="300" style="text-align:center">
 				<img src="img/screens/admin1.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 				<div class="tp-caption black top-label lfl stl"
-					 data-x="750"
+					 data-x="580"
 					 data-y="430"
-					 data-easing="easeOutExpo">Built-in administration</div>
+					 data-easing="easeOutExpo">Administration generator</div>
 			</li>
 		</ul>
 	</div>
