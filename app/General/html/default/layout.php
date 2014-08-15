@@ -29,7 +29,7 @@
 									</a>
 									<ul class="dropdown-menu">
 										<li class="dropdown-submenu">
-											<a href="docs/introduction">Getting started</a>
+											<a href="docs/introduction">Presentation</a>
 											<ul class="dropdown-menu">
 												<li><a href="docs/introduction#introduction">Introduction</a></li>
 												<li><a href="docs/introduction#requirements">Requirements</a></li>
@@ -38,12 +38,8 @@
 										<li class="dropdown-submenu">
 											<a href="docs/framework">Framework</a>
 											<ul class="dropdown-menu">
-												<li><a href="docs/framework#installation">Installation</a></li>
-												<li><a href="docs/framework#configuration">Configuration</a></li>
-												<li><a href="docs/framework#project-structure">Project structure</a></li>
-												<li><a href="docs/framework#bundles">Bundles</a></li>
-												<li><a href="docs/framework#services">Default services</a></li>
-												<li><a href="docs/framework#testing">Testing</a></li>
+												<li><a href="docs/framework">Project</a></li>
+												<li><a href="docs/framework-modules">Modules</a></li>
 												<li><a href="docs/framework-commands">Commands</a></li>
 											</ul>
 										</li>
@@ -137,7 +133,7 @@
 
 		<!-- Libs -->
 		<script src="vendor/jquery.js"></script>
-		<script src="vendor/jquery.containerear.js"></script>
+		<script src="vendor/jquery.appear.js"></script>
 		<script src="vendor/jquery.easing.js"></script>
 		<script src="vendor/jquery.cookie.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.js"></script>

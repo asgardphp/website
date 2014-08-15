@@ -16,7 +16,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<aside class="sidebar">
-								<h4><a href="docs/introduction">Getting started</h4></h4>
+								<h4><a href="docs/introduction">Presentation</h4></h4>
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/introduction#introduction">Introduction</a></li>
 									<li><a href="docs/introduction#requirements">Requirements</a></li>
@@ -24,12 +24,8 @@
 
 								<h4><a href="docs/framework">Framework</a></h4>
 								<ul class="nav nav-list primary push-bottom">
-									<li><a href="docs/framework#installation">Installation</a></li>
-									<li><a href="docs/framework#configuration">Configuration</a></li>
-									<li><a href="docs/framework#project-structure">Project structure</a></li>
-									<li><a href="docs/framework#bundles">Bundles</a></li>
-									<li><a href="docs/framework#services">Default services</a></li>
-									<li><a href="docs/framework#testing">Testing</a></li>
+									<li><a href="docs/framework">Project</a></li>
+									<li><a href="docs/framework-modules">Modules</a></li>
 									<li><a href="docs/framework-commands">Commands</a></li>
 								</ul>
 

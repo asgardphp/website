@@ -7,15 +7,15 @@ class DocumentationController extends \Asgard\Http\Controller {
 	 * @Route("docs")
 	 */
 	public function docIndexAction($request) {
-		return $this->docAction($request);
+		return $this->docsAction($request);
 	}
 
 	/**
 	 * @Route("docs/:page")
 	 */
-	public function docAction($request) {
+	public function docsAction($request) {
 		if(!$request['page'])
-			$request['page'] = 'introduction';
+			return $this->response->redirect($this->url_for('docs', ['page'=>'introduction']));
 
 		$docspath = $this->container['config']->has('docs_path') ? $this->container['config']['docs_path']:'docs';
 		$file = $docspath.'/'.$request['page'].'.md';
