@@ -16,3 +16,5 @@ pre {
 	font-size:24px !important;
 	font-weight:bold !important;
 }
+
+a[name]{display: block; position: relative; top: -80px; visibility: hidden;}

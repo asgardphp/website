@@ -48,6 +48,7 @@
 											<ul class="dropdown-menu">
 												<li><a href="docs/http-requestresponse">Request &amp; Response</a></li>
 												<li><a href="docs/http-controllers">Controllers</a></li>
+												<li><a href="docs/http-utils">Utils</a></li>
 												<li><a href="docs/http-commands">Commands</a></li>
 											</ul>
 										</li>
@@ -55,7 +56,7 @@
 											<a href="docs/">ORM</a>
 											<ul class="dropdown-menu">
 												<li><a href="docs/orm-relations">Relations</a></li>
-												<li><a href="docs/orm-datamcontainerer">DataMcontainerer</a></li>
+												<li><a href="docs/orm-datamapper">DataMapper</a></li>
 												<li><a href="docs/orm-ormbehavior">ORM Behavior</a></li>
 												<li><a href="docs/orm-commands">Commands</a></li>
 											</ul>
@@ -70,14 +71,6 @@
 											</ul>
 										</li>
 										<li class="dropdown-submenu">
-											<a href="docs/">Form</a>
-											<ul class="dropdown-menu">
-												<li><a href="docs/form-form">Form</a></li>
-												<li><a href="docs/form-entity">Entity Form</a></li>
-												<li><a href="docs/form-dynamic">Dynamic Group</a></li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
 											<a href="docs/">More</a>
 											<ul class="dropdown-menu">
 												<li><a href="docs/admin">Admin</a></li>
@@ -89,6 +82,8 @@
 												<li><a href="docs/data">Data</a></li>
 												<li><a href="docs/email">Email</a></li>
 												<li><a href="docs/entity">Entity</a></li>
+												<li><a href="docs/entityform">Entity Form</a></li>
+												<li><a href="docs/form">Form</a></li>
 												<li><a href="docs/hook">Hook</a></li>
 												<li><a href="docs/migration">Migration</a></li>
 												<li><a href="docs/validation">Validation</a></li>

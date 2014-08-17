@@ -1,24 +1,3 @@
-<!-- <div class="slider-container light">
-	<div class="slider" id="revolutionSlider">
-		<ul>
-			<li data-transition="fade" data-slotamount="13" data-masterspeed="300" style="text-align:center">
-				<img src="snippet.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" alt="">
-				<div class="tp-caption top-label lfl stl"
-					 data-x="580"
-					 data-y="430"
-					 data-easing="easeOutExpo">Controllers &amp; Routing annotations</div>
-			</li>
-			<li data-transition="fade" data-slotamount="13" data-masterspeed="300" style="text-align:center">
-				<img src="img/screens/admin1.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" alt="">
-				<div class="tp-caption black top-label lfl stl"
-					 data-x="580"
-					 data-y="430"
-					 data-easing="easeOutExpo">Administration module<br>&amp; generator</div>
-			</li>
-		</ul>
-	</div>
-</div> -->
-
 <div class="container" style="margin-top: 90px;">
 	<div class="row center">
 		<div class="col-md-12">
@@ -27,11 +6,11 @@
 				<strong class="inverted">
 					<span class="word-rotate">
 						<span class="word-rotate-items">
-							<span>complete</span>
-							<span>easy to use</span>
 							<span>efficient</span>
 							<span>modular</span>
 							<span>modern</span>
+							<span>complete</span>
+							<span>easy to use</span>
 						</span>
 					</span>
 				</strong> PHP framework.
@@ -39,11 +18,11 @@
 			<p class="featured lead">
 				Speed up and simplify your development workflow with Asgard.
 				<ul style="list-style-type:none">
-					<li><b>Complete</b>, Asgard comes with more than 15 libraries including form, migration, orm, etc.</li>
-					<li><b>Easy to use</b>, Asgard aims to make development as convenient as possible. See the <a href="docs/quickstart">quickstart</a> for example.</li>
-					<li><b>Efficient</b>, The generator and the ORM make development very very quick.</li>
-					<li><b>Modular</b>, All Asgard <a href="libraries">libraries</a> can be used individually, application is designed to make re-use of code as easy as possible and enjoy dependency injection!</li>
-					<li><b>Modern</b>, Asgard uses modern solutions such as PHP 5.4, Composer, PHPUnit, etc.</li>
+					<li><b>Efficient</b>: The generator and the ORM make development very very quick.</li>
+					<li><b>Modular</b>: Independant <a href="libraries">libraries</a>, re-usable bundles and dependency injection!</li>
+					<li><b>Modern</b>: Asgard uses modern solutions such as PHP 5.4, Composer, PHPUnit, etc.</li>
+					<li><b>Complete</b>: Asgard comes with more than 15 libraries including form, migration, orm, etc.</li>
+					<li><b>Easy to use</b>: Asgard aims to make development as convenient as possible. See the <a href="docs/quickstart">quickstart</a> for example.</li>
 				</ul>
 			</p>
 			<h2 class="short" style="margin-top:30px">
@@ -92,7 +71,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Modularity</h4>
-					<p class="tall">Use, re-use, import and remove bundles as you wish. Asgard containerlications are very modular.<br>
+					<p class="tall">Use, re-use, import and remove bundles as you wish. Asgard applications are very modular.<br>
 					<a href="">See how</a><br>
 					<a href="docs/framework-modules">Documentation</a></p>
 				</div>
@@ -186,7 +165,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Great debugger</h4>
-					<p class="tall">Whenever your containerlication comes accross an error, it will show you the whole backtrace with code snippets, arguments, and links that point to specific files and lines.<br>
+					<p class="tall">Whenever your application comes accross an error, it will show you the whole backtrace with code snippets, arguments, and links that point to specific files and lines.<br>
 					<a href="docs/debug">Documentation</a></p>
 				</div>
 			</div>
@@ -264,7 +243,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Dependency Injection</h4>
-					<p class="tall">To avoid hard dependencies, all the services are stored in a container, available anywhere in your containerlication.<br>
+					<p class="tall">To avoid hard dependencies, all the services are stored in a container, available anywhere in your application.<br>
 					<a href="docs/container">Documentation</a></p>
 				</div>
 			</div>
