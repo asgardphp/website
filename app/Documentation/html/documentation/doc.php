@@ -26,6 +26,7 @@
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/framework">Project</a></li>
 									<li><a href="docs/framework-modules">Modules</a></li>
+									<li><a href="docs/framework-generator">Generator</a></li>
 									<li><a href="docs/framework-commands">Commands</a></li>
 								</ul>
 
