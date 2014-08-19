@@ -207,7 +207,6 @@
 				<div class="feature-box-info">
 					<h4 class="shorter">Autoloader &amp; Facades</h4>
 					<p class="tall">Although Asgard uses Composer already, it also provides its own autoloader for more flexibility.<br>
-					<a href="#example_autoloader" class="example">Example</a><br>
 					<a href="docs/autoloader">Documentation</a></p>
 				</div>
 			</div>
