@@ -135,9 +135,9 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Testing</h4>
-					<p class="tall">Be sure not to let any bug pass. Use Browser to simulate requests and automatically generate tests with the console.<br>
+					<p class="tall">Be sure not to let any bug pass. Automatically generate tests with the console and use browser to simulate requests.<br>
 					<a href="#example_testing" class="example">Example</a><br>
-					<a href="docs/http-browser">Documentation</a></p>
+					<a href="docs/http-utils#browser">Documentation</a></p>
 				</div>
 			</div>
 		</div>
