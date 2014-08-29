@@ -26,7 +26,7 @@
 
 							<h2 class="short"><strong>Contact</strong></h2>
 							<?php $this->getFlash()->showAll() ?>
-							<?php $form->open() ?>
+							<?php echo $form->open() ?>
 								<div class="row">
 									<div class="form-group">
 										<div class="col-md-6">
@@ -66,7 +66,7 @@
 										<input type="submit" value="Send Message" class="btn btn-primary btn-lg" data-loading-text="Loading...">
 									</div>
 								</div>
-							<?php $form->close() ?>
+							<?php echo $form->close() ?>
 						</div>
 
 						<div class="col-md-6">
