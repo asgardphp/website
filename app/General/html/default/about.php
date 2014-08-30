@@ -57,7 +57,7 @@
 								</div>
 								<div class="row">
 									<div class="col-md-12">
-										<img src="http://127.0.0.1/asgardwebsite/web/captcha" alt="" style="margin:10px">
+										<img src="captcha" alt="" style="margin:10px">
 										<input type="text" name="contact[captcha]" value="" id="contact-captcha" class="error">
 									</div>
 								</div>
