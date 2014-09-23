@@ -263,6 +263,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="feature-box">
+				<div class="feature-box-icon">
+					<i class="icon icon-bars"></i>
+				</div>
+				<div class="feature-box-info">
+					<h4 class="shorter">PSR1, PSR3 &amp; PSR4</h4>
+					<p class="tall">Asgard follows most of the Framework Interop Group standards.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
