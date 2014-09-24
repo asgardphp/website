@@ -1,3 +1,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/asgardphp/docs.git
+[submodule "web/api"]
+	path = web/api
+	url = https://github.com/asgardphp/api.git

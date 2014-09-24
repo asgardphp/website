@@ -104,6 +104,9 @@
 								<li>
 									<a href="community">Community</a>
 								</li>
+								<li>
+									<a href="api">API</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
