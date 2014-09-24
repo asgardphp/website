@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "asgard/asgard": "dev-master",
-        "asgard/behaviors": "dev-master",
-        "asgard/data": "dev-master",
+        "asgard/asgard": "0.*",
+        "asgard/behaviors": "0.*",
+        "asgard/data": "0.*",
         "michelf/php-markdown": "1.4.*",
         "swiftmailer/swiftmailer": "5.0.*",
         "asgard/captcha": "dev-master"
@@ -23,10 +23,5 @@
     "config": {
         "preferred-install": "dist"
     },
-    "minimum-stability": "dev",
-    "scripts": {
-        "post-create-project-cmd": [
-            "php console init-config"
-        ]
-    }
+    "minimum-stability": "dev"
 }
