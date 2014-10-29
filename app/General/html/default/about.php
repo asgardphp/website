@@ -74,13 +74,12 @@
 							<h2 class="shorter">Michel <strong>Hognerud</strong></h2>
 							<h4>Author of Asgard</h4>
 
-							<p>I'm a 25 years old developper, working somewhere in Europe as a freelance when I'm not travelling.</p>
+							<p>I'm a <?=round((time()-mktime(0, 0, 0, 9, 20, 1988))/(3600*24*365))?> years old developper, working somewhere in Europe as a freelance when I'm not travelling.</p>
 
 							<h4>Why Asgard?</h4>
-							<p>As a freelance I have always looked for ways to optimize my workflow when building web containerlications.</p>
-							<p>Hence, I started working on a new framework in 2011. Although it's a lot of work, I got to learn a lot.</p>
-							<p>I have spent countless hours thinking about better ways to do web development with PHP, and I have so far implemented many of my ideas (but not all, yet).</p>
-							<p>My objective now is to give Asgard more stability, with more and more tests and a good documentation.</p>
+							<p>As a freelance I have always looked for ways to optimize my workflow when building web applications. Hence, I started working on a new framework in 2011. Sure it's a lot of work but I'm pretty excited with the result.</p>
+							<p>What distinguishes Asgard from many other frameworks, is the <b>strong focus on RAD</b> (rapid app. dev.). Regular tasks such as building new controllers/entities, routing and migrations, among others, are now a lot faster and convenient to do.</p>
+							<p>The next objective is to give Asgard more stability, with more and more tests and a good documentation.</p>
 							<p>If you enjoy using Asgard and want to help improving it, please see <a href="community">the Community page</a>.</p>
 
 						</div>

@@ -6,23 +6,23 @@
 				<strong class="inverted">
 					<span class="word-rotate">
 						<span class="word-rotate-items">
-							<span>efficient</span>
-							<span>modular</span>
+							<span>VRAD</span>
+							<span>flexible</span>
 							<span>modern</span>
 							<span>complete</span>
-							<span>easy to use</span>
+							<span>simple</span>
 						</span>
 					</span>
 				</strong> PHP framework.
 			</h2>
 			<p class="featured lead">
-				Speed up and simplify your development workflow with Asgard.
+				VRAD = Very Rapid Application Development.
 				<ul style="list-style-type:none">
-					<li><b>Efficient</b>: The generator and the ORM make development very very quick.</li>
-					<li><b>Modular</b>: Independant <a href="libraries">libraries</a>, re-usable bundles and dependency injection!</li>
-					<li><b>Modern</b>: Asgard uses modern solutions such as PHP 5.4, Composer, PHPUnit, etc.</li>
+					<li><b>VRAD</b>: Ideal for quick prototyping. <a href="docs/quickstart">See how much you can do in one hour</a>.</li>
+					<li><b>Flexible</b>: Independant <a href="libraries">libraries</a>, re-usable bundles, dependency injection and interfaces!</li>
+					<li><b>Modern</b>: Asgard uses modern solutions such as PHP 5.4, Composer, PHPUnit, PSR, etc.</li>
 					<li><b>Complete</b>: Asgard comes with more than 15 libraries including form, migration, orm, etc.</li>
-					<li><b>Easy to use</b>: Asgard aims to make development as convenient as possible. See the <a href="docs/quickstart">quickstart</a> for example.</li>
+					<li><b>Simple</b>: Intuitive API, user-friendly documentation, convention over configuration, etc.</li>
 				</ul>
 			</p>
 			<h2 class="short" style="margin-top:30px">
@@ -52,7 +52,7 @@
 				</div>
 				<div class="feature-box-info">
 					<h4 class="shorter">Bundles Generator</h4>
-					<p class="tall">Describe your new bundles (controllers, views, entities, etc.) in YAML format and generate them with a single command.<br>
+					<p class="tall">Describe your new bundles (controllers, views, entities, etc.) in YAML format and generate them all with a single command.<br>
 					<a href="#example_generator" class="example">Example</a><br>
 					<a href="docs/framework-generator">Documentation</a></p>
 				</div>
