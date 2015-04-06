@@ -74,7 +74,7 @@
 							<h2 class="shorter">Michel <strong>Hognerud</strong></h2>
 							<h4>Author of Asgard</h4>
 
-							<p>I'm a <?=round((time()-mktime(0, 0, 0, 9, 20, 1988))/(3600*24*365))?> years old developper, working somewhere in Europe as a freelance when I'm not travelling.</p>
+							<p>I'm a <?=floor((time()-mktime(0, 0, 0, 9, 20, 1988))/(3600*24*365))?> years old developper, working somewhere in Europe as a freelance when I'm not travelling.</p>
 
 							<h4>Why Asgard?</h4>
 							<p>As a freelance I have always looked for ways to optimize my workflow when building web applications. Hence, I started working on a new framework in 2011. Sure it's a lot of work but I'm pretty excited with the result.</p>

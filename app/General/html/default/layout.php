@@ -19,8 +19,19 @@
 								<li>
 									<a href="">Home</a>
 								</li>
-								<li>
-									<a href="docs/quickstart">Quickstart</a>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="docs">
+										Quickstart
+										<i class="icon icon-angle-down"></i>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="docs/quickstart">Quickstart</a>
+										</li>
+										<li>
+											<a href="http://github.com/asgardphp/notejam">Notejam Example</a>
+										</li>
+									</ul>
 								</li>
 								<li class="dropdown">
 									<a class="dropdown-toggle" href="docs">
@@ -101,9 +112,9 @@
 								<li>
 									<a href="about">About</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="community">Community</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="api">API</a>
 								</li>
