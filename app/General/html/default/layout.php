@@ -120,7 +120,7 @@
 									<a href="community">Community</a>
 								</li> -->
 								<li>
-									<a href="api">API</a>
+									<a href="api/v0.2.0">API</a>
 								</li>
 							</ul>
 						</nav>
