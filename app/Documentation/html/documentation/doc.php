@@ -42,6 +42,7 @@
 								<ul class="nav nav-list primary push-bottom">
 									<li><a href="docs/orm-relations">Relations</a></li>
 									<li><a href="docs/orm-datamapper">DataMapper</a></li>
+									<li><a href="docs/orm-orm">ORM</a></li>
 									<li><a href="docs/orm-ormbehavior">ORM Behavior</a></li>
 									<li><a href="docs/orm-commands">Commands</a></li>
 								</ul>
@@ -69,6 +70,9 @@
 									<li><a href="docs/form">Form</a></li>
 									<li><a href="docs/hook">Hook</a></li>
 									<li><a href="docs/migration">Migration</a></li>
+									<li><a href="docs/paginator">Paginator</a></li>
+									<li><a href="docs/session">Session</a></li>
+									<li><a href="docs/translation-commands">Translation commands</a></li>
 									<li><a href="docs/validation">Validation</a></li>
 								</ul>
 							</aside>
